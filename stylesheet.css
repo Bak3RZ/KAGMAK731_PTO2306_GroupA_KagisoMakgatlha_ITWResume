@@ -15,12 +15,35 @@ header {
   font-family: serif;
 }
 
-#sidebar{
-  width: 20%;
-}
-
 .section {
   padding: 1em;
+}
+
+#education {
+  background-color: aliceblue;
+  padding: 1%;
+}
+
+.qualification  {
+  padding: 2%;
+}
+
+.job  {
+  padding:2%
+}
+
+.skillsclass  {
+  padding: 2%;
+}
+
+#experience {
+  background-color: aliceblue;
+  padding: 1%;
+}
+
+#skills {
+  background-color: aliceblue;
+  padding: 1%;
 }
 
 .nav-menu{

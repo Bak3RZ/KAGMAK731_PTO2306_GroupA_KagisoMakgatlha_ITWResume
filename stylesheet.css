@@ -1,57 +1,51 @@
 body{
-  font-family:Tahoma;
-  font-size:110%;
-  background-color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2rem;
 }
 
 header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   padding: 2%;
-  background-color: #81e1f2c9;
+  background-color:#343330;
   color: #ffffff;
 }
 
-#heading {
-  font-family: serif;
+#profilepicture {
+  border-radius: 50%;
 }
 
-.section {
-  padding: 1em;
+.sidebar {
+  width: 20%;
+  padding: 1rem;
+  background-color:darkgray;
+  color: black;
 }
 
-#education {
-  background-color: aliceblue;
-  padding: 1%;
+.nav-menu {
+  list-style-type: none;
+  padding: 1rem;
+  color: aquamarine;
 }
 
 .qualification  {
-  padding: 2%;
+  padding: 1rem;
 }
 
 .job  {
-  padding:2%
-}
-
-.skillsclass  {
-  padding: 2%;
-}
-
-#experience {
-  background-color: aliceblue;
-  padding: 1%;
-}
-
-#skills {
-  background-color: aliceblue;
-  padding: 1%;
-}
-
-.nav-menu{
-  list-style-type: none;
+  padding: 1rem;
 }
 
 footer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #343330;
   text-align: center;
   padding: 1em;
+  color: #ffffff;
+}
+
+.icons  {
+  width: 2rem;
+  height: auto;
+  Margin: 0.5rem;
 }

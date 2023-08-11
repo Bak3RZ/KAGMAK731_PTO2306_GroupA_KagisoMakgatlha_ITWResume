@@ -1,11 +1,22 @@
-body{
+main{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-color: blue;
+  margin: 1rem;
+  border: 10px solid mediumturquoise;
 }
 
+.section {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
 header {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
   padding: 2%;
   background-color:#343330;
   color: #ffffff;
@@ -13,12 +24,13 @@ header {
 
 #profilepicture {
   border-radius: 50%;
+  border: 5px solid mediumturquoise;
 }
 
 .sidebar {
   width: 20%;
   padding: 1rem;
-  background-color:darkgray;
+  background-color: lightgrey;
   color: black;
 }
 
@@ -26,6 +38,10 @@ header {
   list-style-type: none;
   padding: 1rem;
   color: aquamarine;
+}
+
+.article {
+margin: 1rem;
 }
 
 .qualification  {

@@ -4,7 +4,7 @@ main{
   flex-direction: column;
   border-color: blue;
   margin: 1rem;
-  border: 10px solid mediumturquoise;
+  border-top: 10px solid mediumturquoise;
 }
 
 .section {
@@ -42,6 +42,7 @@ header {
 
 .article {
 margin: 1rem;
+position: relative;
 }
 
 .qualification  {
@@ -54,14 +55,103 @@ margin: 1rem;
 
 footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
   background-color: #343330;
-  text-align: center;
-  padding: 1em;
   color: #ffffff;
+  padding-bottom: 5rem;
 }
 
-.icons  {
-  width: 2rem;
-  height: auto;
-  Margin: 0.5rem;
+#form {
+  margin-top: 4rem;
+  align-self: center;
+  width: 50%;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#details  {
+  align-self: center;
+}
+
+form  {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 20px;
+}
+
+label   {
+  text-align: right;
+  grid-column: 1/2;
+  margin-top: 1rem;
+}
+
+input   {
+  font-size: small;
+  grid-column: 2/3;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+select  {
+  grid-column: 2/3;
+  margin-top: 1rem;
+  width: 15%;
+  height: 30%;
+}
+
+#name  {
+  grid-column: 2/3;
+  margin-top: 1rem;
+  width: 50%;
+  height: 30%;
+}
+
+#email  {
+  grid-column: 2/3;
+  margin-top: 1rem;
+  width: 50%;
+  height: 30%;
+}
+
+.reason {
+  grid-column: 2/3;
+}
+
+#about  {
+  grid-column: 2/3;
+  width: 70%;
+  line-height: 5;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+textarea {
+  font-size: small;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+#submit{
+  margin-left: 20rem;
+  width: 50%;
+  line-height: 1;
+  background-color:aliceblue;
+  font-weight:200;
+}
+
+#linkedin {
+  padding-right: 1rem;
+  justify-content: space-between;
+}
+
+#instagram  {
+  padding-left: 1rem;
+  justify-content: space-between;
 }

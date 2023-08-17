@@ -18,8 +18,10 @@ header {
   text-align: center;
   justify-content: center;
   padding: 2%;
+  background-image: url(https://i.postimg.cc/rwzdM6pb/hero-banner.jpg);
+  background-repeat: unset;
   background-color:#343330;
-  color: #ffffff;
+  color:#343330;
 }
 
 #profilepicture {
@@ -30,8 +32,8 @@ header {
 .sidebar {
   width: 20%;
   padding: 1rem;
-  background-color: lightgrey;
-  color: black;
+  background-color:sandybrown;
+  color:#343330;
 }
 
 .nav-menu {

@@ -7,11 +7,6 @@ main{
   border-top: 10px solid mediumturquoise;
 }
 
-.section {
-  display: flex;
-  flex-direction: row;
-  overflow: unset;
-}
 header {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   flex-direction: row;
@@ -22,6 +17,12 @@ header {
   background-repeat: unset;
   background-color:#343330;
   color:#343330;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
 }
 
 #profilepicture {

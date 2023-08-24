@@ -1,0 +1,265 @@
+/* =============== Mobile ===================*/
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 10px solid mediumturquoise;
+}
+
+title {
+  text-align: inherit;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: row;
+    text-align: center;
+    background-repeat: unset;
+    background-color:darksalmon;
+    color:azure;
+}
+
+#profilepicture {
+    border-radius: 50%;
+    border: 10px solid mediumturquoise;
+    margin-top: 2rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    overflow: unset;
+}
+
+.sidebar {
+  width:unset;
+  background-color:sandybrown;
+  color:#343330;
+}
+
+#nav-menu {
+  list-style-type:none;
+  padding: 1rem;
+  color: aquamarine;
+}
+
+.article {
+    margin: 1rem;
+    position: relative;
+}
+
+.qualification  {
+    padding: 1rem;
+}
+
+.job  {
+    padding: 1rem;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #343330;
+    color: #ffffff;
+}
+
+#form {
+    margin-top: 1rem;
+    align-self: center;
+    width: 80%;
+    margin: 1rem;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+#details  {
+    align-self: center;
+}
+
+form  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 60px 3fr;
+    grid-gap: 20px;
+}
+
+label   {
+    text-align: right;
+    grid-column: 1/2;
+    margin-top: 1rem;
+}
+
+input   {
+    font-size: small;
+    grid-column: 2/3;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+select  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 15%;
+    height: 30%;
+}
+
+#name  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 80%;
+    height: 30%;
+}
+
+#email  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 80%;
+    height: 30%;
+}
+
+.reason {
+    grid-column: 2/3;
+}
+
+#about  {
+    grid-column: 2/3;
+    width: 70%;
+    line-height: 5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+textarea {
+    font-size: small;
+    border-radius: 2px;
+    margin-top: 1rem;
+}
+
+#submit{
+  grid-column: inherit;
+    margin-left: 12rem;
+    width: 120%;
+    line-height: 1;
+    background-color:ghostwhite;
+    font-weight:100;
+}
+
+#linkedin {
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+
+#instagram  {
+    padding-left: 1rem;
+    justify-content: space-between;
+}
+
+/* =============== Tablet ===================*/
+@media screen and (min-width: 768px) {
+  header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    background-image: url(https://i.postimg.cc/rwzdM6pb/hero-banner.jpg);
+    background-blend-mode: darken;
+    background-repeat:round;
+    background-color:#343330;
+    color:#343330;
+  }
+
+  form  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 20px;
+  }
+
+  #form {
+    margin-top: 2rem;
+    align-self: center;
+    width: 60%;
+  }
+  
+  #name  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 50%;
+    height: 30%;
+  }
+  
+  #email  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 50%;
+    height: 30%;
+  }
+
+  #submit{
+    margin-left: 19rem;
+    width: 80%;
+    line-height: 1;
+    background-color:ghostwhite;
+    font-weight:100;
+  }
+  
+  
+}
+
+/* =============== Desktop ===================*/
+@media screen and (min-width: 1000px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+
+  .sidebar {
+    width: 20%;
+    padding: 1rem;
+  }
+    
+  .nav-menu {
+    list-style-type: none;
+    padding: 1rem;
+    color: aquamarine;
+  }
+  
+  .heading {
+    justify-content: center;
+    padding: 2%;
+    background-repeat: repeat;
+  }
+
+  form  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 20px;
+  }
+
+  #form {
+    margin-top: 2rem;
+    align-self: center;
+    width: 50%;
+  }
+
+  #submit{
+    margin-left: 22rem;
+    width: 50%;
+    line-height: 1;
+    background-color:ghostwhite;
+    font-weight:100;
+  }
+  
+}
